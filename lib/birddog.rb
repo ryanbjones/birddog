@@ -15,7 +15,7 @@
 # IN THE SOFTWARE.
 
 require 'chronic'
-require 'active_support/core_ext'
+require 'active_support/core_ext/object'
 require 'active_record'
 
 require "birddog/version"
