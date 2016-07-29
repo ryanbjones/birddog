@@ -12,7 +12,7 @@ module Birddog
     end
 
     def build
-      scope = @model.scoped
+      scope = @model.all
       
       @options.each do |k, v|
         scope = scope.__send__(k, v)
